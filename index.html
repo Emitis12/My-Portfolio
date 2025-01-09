@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Israel Timothy - Data Analyst</title>
+
+</head>
+
+<body>
+
+
+    <script>
+        function copyText() {
+            const textElement = document.getElementById('text-to-copy');
+            const textToCopy = textElement.textContent;
+
+            // Create a temporary textarea element
+            const tempTextarea = document.createElement('textarea');
+            tempTextarea.value = textToCopy;
+
+            // Append the textarea to the body
+            document.body.appendChild(tempTextarea);
+
+            // Select the text in the textarea
+            tempTextarea.select();
+            tempTextarea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text to clipboard
+            document.execCommand('copy');
+
+            // Remove the temporary textarea
+            document.body.removeChild(tempTextarea);
+
+            // Provide feedback to the user
+            alert('Copied: ' + textToCopy);
+        }
+    </script>
+
+    <div class="container1">
+        <div class="container5">
+            <div class="first-container">
+                <div class="header">
+                    <div class="logo">
+                        <div class="container12">
+                            <span class="text" id="text-to-copy">israeltim86@gmail.com</span>
+                            <button class="copy-button" onclick="copyText()">Copy</button>
+                            <button class="bclass"><a href="https://drive.google.com/file/d/16I33hee6Z8zLB02kGrMRnV6DH8QJOTSZ/view?usp=drivesdk">CV</a></button>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://fb.com/israeltimo"><img src="./images/facebook.png" alt=""></a>
+                        <a href="https://x.com/iam_tis"><img src="./images/twitter.png" alt=""></a>
+                        <a href="https://ig.com/iam_tis"><img src="./images/instagram.png" alt=""></a>
+                        <a href="https://linkedin.com/in/israeltimothy"><img src="./images/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="profile-picture"><img src="./images/background511.png" alt="profile-picture" class="pro">
+                    <div class="waving-banner">Israel Timothy</div>
+                </div>
+                <p class="bio">High motivated data analyst with a natural curiosity for transforming complex data into
+                    action. </p>
+                <div class="buttons">
+                    <a href="https://docs.google.com/forms/d/16vHJzD0PfinK2f6fwSN8YsjTIw3rMkPpgi6lb3riv54/edit?usp=drivesdk"><button>My Work <img src="./images/work-in-progress.png" alt=""></button></a>
+                </div>
+            </div>
+        </div>
+
+<h2> <button class="spbutton"> What I can Do </button> </h2>
+
+        <div class="container51">
+            <div class="left">
+                <img src="./images/dashboard.jpeg">
+            </div>
+            <div class="right">
+                <p>I can develop interactive dashboard using Power BI or Tableau to track KPIs and provide visibility accross all departments.</p>
+            </div>
+        </div>
+
+        <div class="container51">
+            <div class="left">
+                <img src="./images/data.jpeg">
+            </div>
+            <div class="right">
+                <p>I can conduct statistical analysis to identify trends and provide actionable recommendations.</p>
+            </div>
+        </div>
+
+        <div class="container51">
+            <div class="left">
+                <img src="./images/sql.jpeg">
+            </div>
+            <div class="right">
+                <p>I can create SQL queries for data extraction and analysis.</p>
+            </div>
+        </div>
+
+        <div class="container51">
+            <div class="left">
+                <img src="./images/20241226_181226.jpg">
+            </div>
+            <div class="right">
+                <p>I deliver timeless data analysis tutorials from beginner to expert.</p>
+            </div>
+        </div>
+
+        <div class="container51">
+            <div class="left">
+                <img src="./images/teamwork.jpeg">
+            </div>
+            <div class="right">
+                <p>I can collaborate with cross functional team to provide data report.</p>
+            </div>
+        </div>
+
+       
+    </div>
+
+    <div class="second-container">
+        <img src="./images/partnership.png" alt="Portfolio Image">
+        <h2>Tell me about your next <br> project</h2>
+        <div class="buttons">
+            <a href="mailto:israeltim86@gmail.com"> <button>E-mail</button></a>
+            <a href="https://wa.link/message/H36Q4MWUXTZLH1"> <button>WhatsApp</button></a>
+        </div>
+    </div>
+     <div class="frame-container">
+                <div class="frame"></div>
+                <div class="frame"></div>
+                <div class="frame"></div>
+                <div class="frame"></div>
+                <div class="frame"></div>
+            </div>
+
+    <footer>
+        <div class="copyright">&copy; 2025 All rights reserved</div>
+        <a href="#top" class="to-top-btn"><img src="./images/up-arrow.png" alt=""></a>
+    </footer>
+</body>
+
+</html>
